@@ -1,0 +1,8 @@
+pymongo==4.7.2
+langchain-core==0.2.6
+langchain-openai==0.1.7
+langchain==0.2.1
+langchain-community==0.2.4
+lark==1.1.9
+PyYAML==6.0.1
+fire==0.6.0

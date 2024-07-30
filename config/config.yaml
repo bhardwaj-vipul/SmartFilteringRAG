@@ -1,0 +1,7 @@
+database_name: test-db
+collection_name: test-smart-filtering
+vector_index_name: default
+embedding_model_dimensions: 1536
+similarity: cosine
+model: gpt-4o
+embedding_model: text-embedding-ada-002
