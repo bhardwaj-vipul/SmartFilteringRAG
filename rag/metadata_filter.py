@@ -24,9 +24,9 @@ class MetadataFilter:
     def __init__(self, collection, llm, metadata_field_info, document_content_description):
         """
         Initialize the MetadataFilter with a pymongo collection
-        :param collection: Pymongo collection
         :param llm
-        :param metadata_info: Dict of attribute_info and content_description
+        :param metadata_field_info: Dict of attribute_info and content_description
+        :param document_content_description: Description of data
         """
         self.collection = collection
         self.llm = llm
